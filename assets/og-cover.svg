@@ -1,0 +1,64 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0D3B2E"/>
+      <stop offset="100%" stop-color="#145A45"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="72%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#D9B876" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#D9B876" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="pageGradL" x1="0" y1="0" x2="1" y2="0.3">
+      <stop offset="0%" stop-color="#F1E7C8"/>
+      <stop offset="55%" stop-color="#FCF7E6"/>
+      <stop offset="100%" stop-color="#FFFDF5"/>
+    </linearGradient>
+    <linearGradient id="pageGradR" x1="1" y1="0" x2="0" y2="0.3">
+      <stop offset="0%" stop-color="#F1E7C8"/>
+      <stop offset="55%" stop-color="#FCF7E6"/>
+      <stop offset="100%" stop-color="#FFFDF5"/>
+    </linearGradient>
+    <linearGradient id="coverGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1E7A5E"/>
+      <stop offset="100%" stop-color="#0D3B2E"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="860" cy="260" r="380" fill="url(#glow)"/>
+
+  <!-- faint star field corners -->
+  <g opacity="0.08" stroke="#D9B876" fill="none" stroke-width="1.5">
+    <path d="M60 40 L72 72 L104 60 L88 92 L120 104 L88 116 L104 148 L72 132 L60 164 L48 132 L16 148 L32 116 L0 104 L32 92 L16 60 L48 72 Z" transform="translate(-20,-10)"/>
+    <path d="M60 40 L72 72 L104 60 L88 92 L120 104 L88 116 L104 148 L72 132 L60 164 L48 132 L16 148 L32 116 L0 104 L32 92 L16 60 L48 72 Z" transform="translate(1080,470)"/>
+  </g>
+
+  <!-- text block -->
+  <text x="90" y="255" font-family="Georgia, serif" font-size="30" font-style="italic" fill="#D9B876">Read, recite, reflect</text>
+  <text x="88" y="335" font-family="Georgia, serif" font-size="82" font-weight="600" fill="#FFFDF7">Noor-ul-Quran</text>
+  <text x="90" y="385" font-family="Noto Sans Arabic, sans-serif" font-size="34" fill="#EAD6A3">نور القرآن</text>
+  <text x="90" y="440" font-family="Georgia, serif" font-size="24" fill="#F6EFDD" opacity="0.85">Surahs &#183; Paras &#183; Durood Paak &#183; Ayat-ul-Kursi &#183; 4 Quls</text>
+
+  <!-- open book illustration, right side -->
+  <g transform="translate(720,120) scale(1.55)">
+    <ellipse cx="150" cy="238" rx="92" ry="8" fill="#000" opacity="0.14"/>
+    <path d="M46 112 L150 93 L254 112 L252 196 L150 179 L48 196 Z" fill="url(#coverGrad)"/>
+    <path d="M46 112 L150 93 L254 112 L254 118 L150 99 L46 118 Z" fill="#B0813A" opacity="0.8"/>
+    <path d="M150 88 L50 105 L50 191 L150 175 Z" fill="#EFE3BE" stroke="#DDC98F"/>
+    <path d="M150 88 L250 105 L250 191 L150 175 Z" fill="#EFE3BE" stroke="#DDC98F"/>
+    <path d="M150 84 L46 102 C43 103 41 105 41 108 L41 182 C41 186 44 188 48 187 L150 170 Z" fill="url(#pageGradL)" stroke="#D9B876" stroke-width="1.2"/>
+    <path d="M150 84 L254 102 C257 103 259 105 259 108 L259 182 C259 186 256 188 252 187 L150 170 Z" fill="url(#pageGradR)" stroke="#D9B876" stroke-width="1.2"/>
+    <path d="M150 84 L150 170 L146 171 L146 85 Z" fill="#B0813A"/>
+    <g stroke="#1E7A5E" stroke-width="2" stroke-linecap="round" opacity="0.65">
+      <line x1="60" y1="127" x2="128" y2="119"/>
+      <line x1="60" y1="139" x2="124" y2="132"/>
+      <line x1="60" y1="151" x2="128" y2="144"/>
+      <line x1="60" y1="163" x2="118" y2="156"/>
+      <line x1="172" y1="119" x2="240" y2="127"/>
+      <line x1="176" y1="132" x2="240" y2="139"/>
+      <line x1="172" y1="144" x2="240" y2="151"/>
+      <line x1="182" y1="156" x2="240" y2="163"/>
+    </g>
+    <path d="M150 62 L163 62 L163 106 L156.5 97 L150 106 Z" fill="#C0433A"/>
+  </g>
+</svg>
