@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.noorulquran.app/sitemap.xml
+Sitemap: https://noor-ul-quran-beta.vercel.app/sitemap.xml
