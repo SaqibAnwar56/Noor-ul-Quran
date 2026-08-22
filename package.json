@@ -1,0 +1,11 @@
+{
+  "name": "noor-ul-quran",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build-seo.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
