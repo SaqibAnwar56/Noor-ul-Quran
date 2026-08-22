@@ -10,7 +10,12 @@
         {
           "key": "Referrer-Policy",
           "value": "strict-origin-when-cross-origin"
-        },
+        }
+      ]
+    },
+    {
+      "source": "/",
+      "headers": [
         {
           "key": "Link",
           "value": "<https://noor-ul-quran-beta.vercel.app/>; rel=\"canonical\""
